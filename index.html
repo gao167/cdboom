@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="asset/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -17,7 +20,210 @@
 </head>
 
 <body>
-
+    <div class="main-wrapper">
+        <div class="header">
+            <div class="top">
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="phone"><i class="fas fa-phone-volume"></i>+094 3231231</div>
+                        <div class="address"><i class="fas fa-map-marker-alt"></i>Bình Thạnh,Hồ Chí Minh</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" id="edita" href="#">CD BOOM</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Thông báo </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Giao hàng từ xa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hỗ trợ khách hàng</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Các trường trình khuyến mãi
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Chức năng chưa hoàn thành</a>
+                                        <a class="dropdown-item" href="#">Chức năng chưa hoàn thành</a>
+                                        <a class="dropdown-item" href="#">Chức năng chưa hoàn thành</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control" type="search" placeholder="Tìm tên đĩa theo ca sĩ,thể loại ..."
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <i class="fas fa-search"></i>Tìm
+                                    kiếm</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="asset/img/sl1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="asset/img/sl2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="asset/img/sl3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 clpd">
+                        <div class="main-left">
+                            <h5>DANH MỤC SẢN PHẨM</h5>
+                            <p class="danhmuc">Ca Nhạc</p>
+                            <ul>
+                                <li><a href="#">Nhạc thiếu nhi <span class="badge badge-primary badge-pill">14</span></a></li>
+                                <li><a href="#">Nhạc hải ngoại <span class="badge badge-primary badge-pill">32</span></a></li>
+                                <li><a href="#">Nhạc bonero <span class="badge badge-primary badge-pill">54</span></a></li>
+                                <li><a href="#">Nhạc trẻ <span class="badge badge-primary badge-pill">655</span></a></li>
+                            </ul>
+                            <p class="danhmuc">Phim Điện Ảnh</p>
+                            <ul>
+                                <li><a href="#">Võ thuật <span class="badge badge-primary badge-pill">321</span></a></li>
+                                <li><a href="#">Tình cảm <span class="badge badge-primary badge-pill">12</span></a></li>
+                                <li><a href="#">Anime <span class="badge badge-primary badge-pill">11</span></a></li>
+                                <li><a href="#">Chiến tranh <span class="badge badge-primary badge-pill">13</span></a></li>
+                            </ul>
+                            <p class="danhmuc">Sản phẩm khác</p>
+                            <ul>
+                                <li><a href="#">Đĩa đổi trả <span class="badge badge-primary badge-pill">54</span></a></li>
+                                <li><a href="#">Đĩa hết hạn <span class="badge badge-primary badge-pill">16</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 clpd">
+                        <div class="main-right">
+                            <ul class="top-main-right">
+                                <li><a href="#">HÀNG MỚI</a></li>
+                                <li><a href="#">BÁN CHẠY</a></li>
+                                <li><a href="#">GIẢM GIÁ NHIỀU</a></li>
+                                <li><a href="#">GIÁ CAO</a></li>
+                            </ul>
+                            <div class="products">
+                                <div class="product-list">
+                                    <div class="product">
+                                        <img src="asset/img/anh-pr.jpg" alt="#">
+                                        <div class="title-product">
+                                            <p>Anh Hùng Trái Đất (Trọn Bộ 26 Đĩa VCD)</p>
+                                        </div>
+                                        <div class="price">375.000&nbsp;₫</div>
+                                    </div>
+                                    <div class="product">
+                                        <img src="asset/img/anh-pr2.jpg" alt="#">
+                                        <div class="title-product">
+                                            <p>Goseiger - Siêu nhân thiên sứ (Trọn Bộ )</p>
+                                        </div>
+                                        <div class="price">328.000&nbsp;₫</div>
+                                    </div>
+                                    <div class="product">
+                                        <img src="asset/img/anh-pr3.jpg" alt="#">
+                                        <div class="title-product">
+                                            <p>Robot Trái Cây Phần 2 - Trọn Bộ 13 Đĩa (DVD)</p>
+                                        </div>
+                                        <div class="price">337.000&nbsp;₫</div>
+                                    </div>
+                                    <div class="product">
+                                        <img src="asset/img/anh-pr4.jpg" alt="#">
+                                        <div class="title-product">
+                                            <p>Geki Ranger - Siêu Nhân Mãnh Thú (VCD Bộ)</p>
+                                        </div>
+                                        <div class="price">347.000&nbsp;₫</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <div class="product-list">
+                                    <div class="product">
+                                        <img src="asset/img/anh-pr.jpg" alt="#">
+                                        <div class="title-product">
+                                            <p>Anh Hùng Trái Đất (Trọn Bộ 26 Đĩa VCD)</p>
+                                        </div>
+                                        <div class="price">375.000&nbsp;₫</div>
+                                    </div>
+                                    <div class="product">
+                                        <img src="asset/img/anh-pr2.jpg" alt="#">
+                                        <div class="title-product">
+                                            <p>Goseiger - Siêu nhân thiên sứ (Trọn Bộ )</p>
+                                        </div>
+                                        <div class="price">328.000&nbsp;₫</div>
+                                    </div>
+                                    <div class="product">
+                                        <img src="asset/img/anh-pr3.jpg" alt="#">
+                                        <div class="title-product">
+                                            <p>Robot Trái Cây Phần 2 - Trọn Bộ 13 Đĩa (DVD)</p>
+                                        </div>
+                                        <div class="price">337.000&nbsp;₫</div>
+                                    </div>
+                                    <div class="product">
+                                        <img src="asset/img/anh-pr4.jpg" alt="#">
+                                        <div class="title-product">
+                                            <p>Geki Ranger - Siêu Nhân Mãnh Thú (VCD Bộ)</p>
+                                        </div>
+                                        <div class="price">347.000&nbsp;₫</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="phantrang">
+                <div class="container">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="container">
+               <p>Copyright© 2019 <a href="#">CD BOOM</a>,Designed by <span>HN</span></p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
